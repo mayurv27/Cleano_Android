@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">cleano1</string>
+    <string name="coll1">Name</string>
+
+    <string-array name="Issues">
+        <item>Select Issue</item>
+        <item>Customer Address Is Incomplete</item>
+        <item>Wrong Order</item>
+        <item>Customer declined to pay</item>
+        <item>Customer info Incomplete</item>
+        <item>Others</item>
+
+    </string-array>
+
+</resources>

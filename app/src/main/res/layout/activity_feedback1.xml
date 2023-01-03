@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback1"
+    android:background="@drawable/background"
+    >
+
+    <EditText
+        android:id="@+id/feedname"
+        android:layout_width="313dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_person2"
+        android:drawablePadding="15sp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/userfeedback1"
+        android:layout_width="287dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="392dp"
+        android:ems="10"
+        android:hint="Write your Feedback"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/feedname"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/feedname"
+        app:layout_constraintTop_toBottomOf="@+id/feedname"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="241dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="Feedback"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/feeddbackbtn1"
+        android:layout_width="107dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/strokefeedback"
+        android:text="Submit"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/userfeedback1"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/userfeedback1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/man_giving_rating_and_review_of_delivery_items_while_sitting_on_the_desk_and_working_on_laptop_on_transparent_background_png" />
+</androidx.constraintlayout.widget.ConstraintLayout>

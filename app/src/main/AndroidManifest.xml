@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cleanofinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cleanofinal">
+        <activity
+            android:name=".PickOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_Orders"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewOrderData"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerOrders"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerResult"
+            android:exported="false" />
+
+        <activity
+            android:name=".Contact_admin_page"
+            android:exported="false" />
+        <activity
+            android:name=".OrderstoPick"
+            android:exported="false" />
+        <activity
+            android:name=".DriverMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".CleanoMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".DriverLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_details"
+            android:exported="false" />
+        <activity
+            android:name=".feedback1"
+            android:exported="false" />
+        <activity
+            android:name=".Ordersuccess"
+            android:exported="false" />
+        <activity
+            android:name=".table"
+            android:exported="false" />
+        <activity
+            android:name=".Homefinal"
+            android:exported="false" />
+        <activity
+            android:name=".Userfinal"
+            android:exported="false" />
+        <activity
+            android:name=".user"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

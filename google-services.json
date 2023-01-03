@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "853356974813",
+    "firebase_url": "https://cleanofinal-default-rtdb.firebaseio.com",
+    "project_id": "cleanofinal",
+    "storage_bucket": "cleanofinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853356974813:android:d71185a3cc1a69fe6d8134",
+        "android_client_info": {
+          "package_name": "com.example.cleanofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853356974813-t729627k04gnclov246ui0l7598v90i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7uKHIyN_EIQ-ZXdr1FtRonULgca6xqU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853356974813-t729627k04gnclov246ui0l7598v90i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
